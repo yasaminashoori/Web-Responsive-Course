@@ -1,0 +1,31 @@
+*, *::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    background-color: darkgray;
+}
+
+.box{
+    font-size: 1.7rem;
+    height: 50%;
+    width: 10rem;
+    background-color: gold;
+    border-left: 5px solid firebrick;
+}
+
+/* em font size of current element  */
+/* rem font size of root element = html */
+
+/* 20px / 16 = 1.4 rem 
+23 px =>23 .  23 /16 = 2.04 not good */
+
+/* every rem 10 px 3.5 * 100 = 35 px */

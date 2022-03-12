@@ -1,0 +1,49 @@
+
+
+body {
+  padding: 1rem;
+}
+
+label {
+  /* be soorat inline bood hala block shod har chi jolosh bashe mindaze payin */
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+form{
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 50%;
+    /* background-color: #d1d5dba2; */
+}
+
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: border 0.15s, box-shadow 0.15s;
+  /*we can say instead  all 0.15s */
+}
+
+input:focus {
+  outline: 0;
+  border: 1px solid #c4b5fd;
+  box-shadow: 0 0 0 4px #f5f3ff;
+}
+
+button{
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    border: 0;
+    background-color: #a78bfa;
+    color: #fff;
+}

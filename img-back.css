@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* img{
+    width: 400px;
+    height: 300px;
+    background-color: gold;
+    object-fit: contain;
+} */
+
+.container {
+  height: 200vh;
+  background: url("/practices/assets/images/21\ Vibrant\ Landscape\ Photographs\ of\ Valleys.jfif"); 
+  background-position: center; /* it takes 2 parameter left and bottom 100px 200px or 25% 75%*/
+  background-size: 100%; /*or cover like object-fit*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* bg image :used for where in backg of site and svg used */

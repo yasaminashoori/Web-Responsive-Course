@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset */
+        /* BodyStyles */
+        /* Typography  */
+        /* form */
+        /* footer */
+        /* Navigation */
+
+        div.nav > ul.items > li{
+            /* not good if the code changes and specificity is 23! */
+        }
+
+        /* instead */
+
+        .nav-item{
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <ul class="items">
+            <li>items1</li>
+            <li>item 2</li>
+            <li>item 3 </li>
+        </ul>
+
+    </div>
+
+    <nav class="nav">
+        <div>
+            <ul class="items">
+                <li class="nav-item">item1</li>
+                <li class="nav-item">item2</li>
+                <li class="nav-item">item 3</li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html>
+
+<!-- 1-css best practices  -->
+<!-- naming :  nav-bar(snake case) nav_bar(kebab case) navBar(camel case)  NavBar(pascal)-->
+<!-- 2.css variable for colors -->
+<!-- 3.oo css --> <!--code with minimum repeat-->
+<!-- css BEM for naming classses -->
+

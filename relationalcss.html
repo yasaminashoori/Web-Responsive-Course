@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* reletional selectors */
+
+        /* #products p {}  remember to space between them */
+
+        /* #producrs > p{}  the first one that is directly child of products place not important may be first end or ...*/
+
+        /* #products + p{} sibling that directly comes after products and just one p not all of them */
+
+        /* #products ~ p{}  all of the p after #products*/
+
+        /* a[target or target="blank"or href="https://fronthoos.ir"or href*="fronthihooks"or hrerf^="https://"or href$=".com"]  */
+
+
+
+        /* pseusdo class */
+
+        /*#products .first {
+            color: dodgerblue;
+        }*/
+
+        /* #products :first-child */
+
+        #products :last-child {
+            color: indigo;
+            font-weight: bold;
+        }
+
+        ul :nth-child(odd) {
+            color: darkorange;
+            background-color: darkkhaki;
+        }
+
+        /* we can definethe type of ul forexample li . ul li :nth-child() */
+
+        /* #products :first-of-type */
+
+        a:visited,
+        a:link {
+            color: forestgreen;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: saddlebrown;
+        }
+
+        a:focus {
+            color: forestgreen;
+        }
+
+        p::first-letter {
+            font-size: 30px;
+        }
+
+        /* p::first-line */
+
+        h2::before {
+            content: "...";
+        }
+
+        p:hover {
+            color: indianred;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://google.com">go to google?</a>
+    <a href="https://asdahashem.com">go there?</a>
+    <section id="products">
+        <h2>heading 2</h2>
+        <h2>second</h2>
+        <p class="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <ul>
+            <li>item1</li>
+            <li>iteem2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+            <li>item7</li>
+            <li>item8</li>
+        </ul>
+
+    </section>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fug
+        it, accusamus natus? Optio dolor, error debitis
+        laboriosam laudantium quos! Commodi, accusantium?</p>
+
+</body>
+
+</html>
