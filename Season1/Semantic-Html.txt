@@ -1,0 +1,8 @@
+When we want to use an absolutely independent tag we should use from artcile and aside like banners
+every page has just one h2 tag 
+
+the main structure of our site should be like : 
+
+ever page should has just one main tag for the important contents.
+
+section are comletely relatvie together.
