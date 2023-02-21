@@ -1,0 +1,14 @@
+p{
+  color: deeppink;
+  border: 2px solid black;
+}
+
+span{
+  color: indigo;
+  font-size: 60px;
+  border: inherit;
+}
+
+/* span{
+  color: initial;
+} */
