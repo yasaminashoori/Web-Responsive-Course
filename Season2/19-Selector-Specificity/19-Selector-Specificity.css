@@ -1,0 +1,23 @@
+h2{
+  color: darkmagenta;
+}
+
+/* h2{
+  color: darkmagenta !important;
+} */
+
+#products .heding-id{
+  color: crimson;
+}
+
+#heding-id{
+  color: rgb(0, 139, 139);
+}
+
+.heding-id#heding-id{
+  color: tomato;
+}
+
+#products #heading-id{
+  color: darkorange;
+}
