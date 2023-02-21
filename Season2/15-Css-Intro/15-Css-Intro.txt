@@ -1,0 +1,4 @@
+We can styling in different states : 1- in a eperate folder called style.css 2- or inside the tags called INLINE and it has the highest
+priority and overrides the other styles 3- or in the <style> tag 
+
+ids should be unique names but not in class. showes by # 
