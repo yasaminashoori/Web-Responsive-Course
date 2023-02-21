@@ -1,0 +1,34 @@
+#products p{
+    background-color: rgb(108, 67, 196);
+}
+#products > p{
+    background-color: rgb(108, 67, 196);
+}
+
+#products + p{
+    background-color: rgb(108, 67, 196);
+}
+
+#products ~ p{
+    background-color: rgb(108, 67, 196);
+}
+
+a[target="_blank"]{
+    color: blue;
+}
+
+a[target]{
+    color: blue;
+}
+
+a[href*="google"]{
+    color: blue;
+}
+
+a[href^="https://"]{
+    color: blue;
+}
+
+a[href=".com"]{
+    color: blue;
+}
