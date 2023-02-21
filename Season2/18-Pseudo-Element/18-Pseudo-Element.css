@@ -1,0 +1,12 @@
+p::first-letter{
+  font-size: 80px;
+}
+
+p::after{
+  content: "...";
+}
+
+p:hover{
+    color: rgb(56, 139, 0);
+    font-weight: bold;
+}
