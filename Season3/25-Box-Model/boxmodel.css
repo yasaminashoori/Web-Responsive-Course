@@ -3,14 +3,12 @@ p{
     /* padding: 0px; */
     padding: 20px;
     background-color: cyan;
-    display: inline-block;
     margin: 80px 40px;
 }
 
 h2{
     padding: 30px;
     background-color: aquamarine;
-    display: inline-block;
 }
     
     
