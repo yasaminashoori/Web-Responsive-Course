@@ -1,0 +1,72 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    height: 200vh;
+    /* give this heigh for scroll to showing the job of fixed value */
+}
+
+.box{
+    border: 2px solid salmon;
+    position: relative;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+}
+
+.item-one{
+    background-color: orange;
+}
+
+.item-two{
+    background-color: crimson;
+    /* position: relative;  */
+    /* reletive for move the item don't work if it be static. releative has nothing to do with others*/
+    /* absolute: look  AT parent */
+    /* top: 0px;
+    right: 0px; */
+    /* z-index: -3; */
+    position: fixed; /*this used for advertisments and menue foe menue : top=0 width:100%*/
+    /* nesbat be borwser/viewport fixed */
+    top: 0;
+    left: 30%;
+    width: 50%;
+    /* bottom: 0;
+    right: 0; */
+    /* border-radius: 50%;   */
+    /* top: 30px; */
+    /* left: 20px; */
+    /* position: sticky; top=0  width=100% sticky menues . ta ghabl noghte khas farghi nadare ama badesh stick mishe  */
+}
+
+.item-three{
+    background-color: coral;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+}
+
+
+/* اولین کانتینری که پوزیشن رلتیو داره نسبت به اون عوض بشه این شد وظیفه ابسولوت نسبت به جای پدرم میگیره */
+
+/* position: fixed; */
+/* top: 0; */
+/* width: 100% */
+
+/* all of those threeetags used for creating menue of site */
+
+/* position: sticky; */
+/* top: 20px; */
+/* width: 100% */
+
+/* for menue before scroll comes to the right point ite will stick  */
+
+
