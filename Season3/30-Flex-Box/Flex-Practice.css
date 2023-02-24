@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.items{
+    border: 1px solid black;
+    /* display: flex; */
+    height: 500px;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.box2{
+    display: flex;
+}
+
+
+.item-one{
+    width: 250px;
+    background-color: blueviolet;
+    flex-basis: 500px;
+}
+
+.item-two{
+    /* flex-basis: 300px; */
+    background-color: rgb(43, 64, 226);
+}
+
+.item-three{
+    /* flex-basis: 200px; */
+    background-color: rgb(226, 43, 195);
+}
