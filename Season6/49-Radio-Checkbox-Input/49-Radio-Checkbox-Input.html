@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./47-Data-List.css">
+</head>
+
+<body>
+    <form>
+        <!-- datalist -->
+        <!-- drop down list : just select form these list -->
+        <select>
+            <option value="">select a course</option>
+            <optgroup label="frontend-courses">
+                <option value="0">reactt</option>
+                <option value="1">React.js</option>
+                <option value="2">React.js</option>
+            </optgroup>
+            <optgroup label="backend-courses">
+                <option value="3">React.js</option>
+                <option value="4">React.js</option>
+            </optgroup>
+        </select>
+        <div>
+            <!-- checkbox: allow user to select multiple of optons in favourite items -->
+            <input type="checkbox" id="front-end" name="interests" value="0">
+            <label for="front-end">front-end</label>
+        </div>
+        <div>
+            <input type="checkbox" id="back-end" name="interests" value="1">
+            <label for="back-end">back-end</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="0">
+            <label for="male">male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="1" checked>
+            <label for="female">female</label>
+            <!-- gender is same in name and just choose one -->
+            <!-- ham to radio ham select faghat yedoone vaghti tedad az 3 bushtar to sleect mizarim kamtar radio -->
+        </div>
+    </form>
+</body>
+
+</html>
+
+
+<!-- we want to suggest some options to user and either yourself add option -->
