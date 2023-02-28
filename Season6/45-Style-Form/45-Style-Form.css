@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url(/assets/fonts/Yekan.woff) format('woff')
+}
+
+body {
+  padding: 1rem;
+  font-family: "Yekan";
+}
+
+
+label {
+  /* be soorat inline bood hala block shod har chi jolosh bashe mindaze payin */
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+form {
+  background-color: rgba(250, 240, 240, 0.973);
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 50%;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: border 0.15s, box-shadow 0.15s;
+  /* transition: all 0.15s; */
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: 0;
+  border: 1px solid6#bfafd4;
+  box-shadow: 0 0 0 6px #f5f3ff;
+}
+
+/*  or : 
+input:focus {
+  outline: 0;
+  border: 1px solid #c4b5fd;
+  box-shadow: 0 0 0 4px #f5f3ff;
+} */
+
+
+button {
+  font-family: "Yekan";
+  outline: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #ccc;
+  background-color: #a78bfa;
+  color: white;
+}
