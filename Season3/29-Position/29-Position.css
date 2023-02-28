@@ -46,8 +46,8 @@ body{
 }
 
 .item-three{
-    background-color: coral;
-    position: absolute;
+    background-color: rgb(224, 15, 224);
+    position: sticky;
 
     top: 0;
     right: 0;
