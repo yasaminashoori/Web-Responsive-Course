@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Yekan";
+  src: url(/assets/fonts/Yekan.woff) format('woff');
+}
+
+body{
+  font-family: "Yekan";
+}
+
+
+
