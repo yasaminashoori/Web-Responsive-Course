@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.img-bg{
+    height: 300vh;
+    /* width: 30%; */
+    background-image: url(/21\ Vibrant\ Landscape\ Photographs\ of\ Valleys\ 1@2x.png);
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+}
