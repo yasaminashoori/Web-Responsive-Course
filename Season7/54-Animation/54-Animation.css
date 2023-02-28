@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    animation: loading 2s linear infinite;
+    background-color: gold;
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes loading{
+    from{
+        transform: rotate(0) scale(1.5);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+/* loading is our choosing name */
+
+
+@keyframes loading{
+    0%{
+        transform: scale(1);
+    }
+
+    25%{
+        transform: scale(1.5) rotate(45deg);
+    }
+
+    50%{
+        transform: rotate(60deg) scale(2);
+        background-color: pink;
+    }
+
+    100%{
+        transform: scale(0);
+    }
+}
