@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-weight: 400; /*or normal*/
+  font-style: normal;
+  src: url("/practices/assets/fonts/Yekan.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-weight: 700; /*or normal*/
+  font-style: normal;
+  src: url("/practices/assets/fonts/Yekan.ttf") format("ttf");
+}
+
+body {
+  font-family: "Yekan";
+}
+
+html {
+  font-size: 62.5%;
+  /* 62.5% * 16px = 10px */
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.7; /* we use line height for keep the lines clean normally it sets :  font-size here 2rem * 2= 4 */
+  font-weight: 400;
+  width: 50rem;
+  column-count: 2;
+  column-gap: 2rem;
+  /* for newspaper used this 2 columns */
+  /* text-align: right;  khodesh raste. justify kamelan ghalate chon az nazar ux kalamat ham teraz hastan va gij konanande*/
+  /* text-decoration: line-through; for off products  */
+  /* direction: rtl; */
+}
+
+p + p {
+  text-indent: 2rem;   /*it means first doesn't give and the second gives indent */
+  /* paragraphayi ke bad tag paragaph oomadan */
+}
+
+h2 {
+  /* text-transform: uppercase capitalize better for headings; */
+  font-size: 3.1rem;
+  /* for mobile 2 rem and 3.1 rem */
+  margin: 3rem 0 1rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 600px) {
+  h2 {
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  /* desktop mode */
+}
+
+.over {
+  border: 2px solid darkgreen;
+  width: 50rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* all of tihs 4 things above are essential width/over/tex/wh */
+}
+
+/* 18px = > 18 /  16 = 1.4  */
+/* "" those have strings have  space between. if the fontns were availabe we shouls show something else to the user */
+/* ttf eot (the best => woof woff2)*/
+/* we can put this @fontface in a seperate file named as font.css */
+/* responsive , px or rem ? rem! for updating to th changed in font of browser */
+
+/* rem better px not good for apple with high resolation */

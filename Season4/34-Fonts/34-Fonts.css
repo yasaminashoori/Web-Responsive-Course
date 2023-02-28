@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-weight: normal; /*or normal*/
+  font-style: normal;
+  src: url("/assets/fonts/Yekan.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-weight: normal; /*or normal*/
+  font-style: normal;
+  src: url("/assets/fonts/Yekan.woff") format("woff");
+}
+.container p h2{
+  font-family: "Sans Pro";
+}
+
+body {
+  font-family: "Yekan";
+}
+
+p {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 700;
+}
