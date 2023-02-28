@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./51-Form-Validation-Submission.css">
+</head>
+
+<body>
+    <form>
+        <form>
+            <input type="text" minlength="3" maxlength="10">
+        <button type="submit">submit</button>
+        <input type="number" minlength="0" maxlength="60" required>
+        <button type="submit">submit</button>
+    </form>
+    <form action="https://google.com" method="post">
+        <!--or get but post is better for info-->
+        <input type="number" minlength="0" maxlength="60">
+        <button type="submit">submit</button>
+        <input type="email" required>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
+    <!-- we want to suggest some options to user and either yourself add option -->
+    <!-- 1.build forms
+    2.style forms
+    3.text fields
+    4.data lists 
+    5.drop-down lists
+    6.check box 
+    7.radio buttons
+    8.sliders
+    9.file inputs
+    10.hidden fields
+    11.data validation
+    12.submitting forms -->
+
+    <!-- 1.age < 0  -->
+    <!-- price < 0 -->
+    <!-- quantity < 1 => 0.1 0.2,... -->
+    <!-- name: 1000 x ch... -->
