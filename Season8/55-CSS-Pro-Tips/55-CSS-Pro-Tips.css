@@ -1,0 +1,37 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+/* Typography */
+@font-face {
+  font-family: "Yekan";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/practices/assets/fonts/Yekan.ttf") format("ttf");
+}
+
+h1,h2,h3{
+    color: rgb(225, 49, 49);
+}
+
+
+/* Body Styles */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Yekan";
+  font-size: 5rem;
+}
+
+.nav-item{
+    background-color: gold;
+}
