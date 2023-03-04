@@ -8,13 +8,12 @@
     <title>Document</title>
 </head>
 <style>
-    table {
-        border: 1px solid gainsboro;
+    table,
+    td {
+        border: 1px solid rgb(183, 214, 189);
         border-collapse: collapse;
         color: gray;
         font-size: small;
-
-
     }
 
     thead {
@@ -35,8 +34,12 @@
         background-color: #009879;
         color: white;
     }
-</style>
 
+    #gray {
+        background-color: #e5eae9;
+        color: #009879;
+    }
+</style>
 <body>
     <table>
         <thead>
@@ -46,7 +49,6 @@
                 <th>Points</th>
                 <th>Team</th>
             </tr>
-
         </thead>
         <tr>
             <td>1</td>
@@ -66,7 +68,11 @@
             <td>52,300</td>
             <td>dcode</td>
         </tr>
+        <tfoot>
+            <tr id="gray">
+                <th colspan="4">True</th>
+            </tr>
+        </tfoot>
     </table>
 </body>
-
 </html>
