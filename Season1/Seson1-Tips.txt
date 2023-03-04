@@ -1,0 +1,40 @@
+TIPS for making a local server : 
+127.0.0.1 Local address
+On 55500 port
+name of file /index.html
+
+
+TIPS for Meta Tags : 
+-We usually use from : Charset ,  viewport , description , keywords. 
+-Used from viewport to show the user the screen size and initial zoom of it.
+
+
+TIPS for Head Tags : 
+ -Between b/i/em/strong as much as you can use form em and strong. others are outdated in HTML5
+ -We have headings and concept named hierarchy. it means that we should respect to the sequence of headings and we can't have h4 before using any h3. 
+ -Another TIP : every html page has only one H1 tag !
+
+
+TIPS for HyperLink : 
+-Types of HyperLinks : 1-Relative links (internal links such as files of the folders) 2-Absolute links (external links)
+-We can move to a section of the page with links : id=name href=#name 
+
+TIPS for Images : 
+-With object-fit we control the size of image. contain fits iamge but empty space, but cover fills the bg. we often used from contain.
+
+
+TIPS for Videos : 
+-We can control over the videos with these prop : autoplay, loop and ... also we can display a text to the user if the video doesnt play.
+and also we have audio tag that use as same as video tag.
+
+TIPS for List : 
+TIPS for Containers :  we have two types of elements  : 1-Block level 2-Inline level 
+Block level tags filled the whole space of it's front. and the size of width has no effect. but inline filles as the size ot width.
+
+
+TIPS for Semantic : 
+When we want to use an absolutely independent tag we should use from artcile and aside like banners
+every page has just one h2 tag 
+the main structure of our site should be like : 
+every page should have just one main tag for the important contents.
+section are comletely relatvie together.
