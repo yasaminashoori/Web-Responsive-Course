@@ -1,3 +1,0 @@
-127.0.0.1 Local address
-On 55500 port
-name of file /index.html
