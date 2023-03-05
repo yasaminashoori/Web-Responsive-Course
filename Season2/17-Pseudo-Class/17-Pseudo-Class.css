@@ -20,7 +20,7 @@
 }
 
 ul li:nth-child(odd){
-    color: grey;
+    color: rgb(21, 243, 32);
     background-color: darkorange;
 }
 
@@ -35,6 +35,6 @@ a:visited, a:link{
 }
 
 a:focus{
-    color: darkolivegreen;
-    background-color: firebrick;
+    color: rgb(124, 16, 124);
+    background-color: rgb(255, 3, 79);
 }
