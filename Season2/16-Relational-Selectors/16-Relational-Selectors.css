@@ -1,12 +1,12 @@
 #products p{
-    background-color: rgb(108, 67, 196);
+    background-color: rgb(196, 67, 101);
 }
 #products > p{
-    background-color: rgb(108, 67, 196);
+    background-color: rgb(190, 196, 67);
 }
 
 #products + p{
-    background-color: rgb(108, 67, 196);
+    background-color: rgb(67, 196, 153);
 }
 
 #products ~ p{
@@ -21,6 +21,10 @@ a[target]{
     color: blue;
 }
 
+a[href="https://www.google.com"]{
+    color: blue;
+}
+
 a[href*="google"]{
     color: blue;
 }
@@ -29,6 +33,6 @@ a[href^="https://"]{
     color: blue;
 }
 
-a[href=".com"]{
+a[href$=".com"]{
     color: blue;
 }
