@@ -1,0 +1,44 @@
+TIPS for CSS Intro :
+ We have a concept in programming named "Seperation of concern". Concept that works seperate from other part of program, should be seperted.
+ The priority of inline tags is higher than class so other styles will be override. 
+ ID's are unique and used just for one element but classes are more general.
+
+TIPS for Relational Selectors : 
+ #products p => applies to all of the p tags even ones in child tags that inside the #products (#products p {}  remember to space between them).
+ #products > p => applies to all of the p tags that are directly the child of #products in everywhere up or down, but doesn't apply to the inside
+ tags. 
+ #products + p => applies just to the first tag that comes right after the #products, and for all of them used #products ~ p .
+ WE can also select the attributes of tags :  for example a [href*="fronthooks"].
+
+TIPS for pseusdo class : 
+These classes made by browser itself, made with #products :first-child syntax.
+NOTICE we should use h2:hover without any space cause it is a tag not class or id.
+We called all of  the a tags with href hyperlink that they have anchor.
+
+TIPS for pseusdo element :
+ These are not exist in our html file at all and we add them with css. 
+
+ TIPS for selector specificity : 
+ There is priority : id, class, tag . (1,0,1)
+ NOTE there is difference form #idh2 and #id h2 the first one means AND of these two in one line. the second one means find the h2 
+ tag with this id in a child.
+
+ TIPS for inheritance : 
+ Sometimes we don't need to apply the properties to some tags that are child of their father class and they inherite these prop.
+ Tags related to fonts, colors, text has inherited. FOR AVOID THIS SET FOR EXAMPLE COLOR OF SPAN TAG TO : INITIAL OR SET ANOTHER
+ THING.
+
+TIPS for colors : 
+RGB : red, green, blue from 0 to 255. amd a for alpha.
+HSL : hue (circle from 0 to 360 degree) Saturation from 0 t0 100% and lightness from 0 to 100%
+HEXA : 6 digits but 3 for simplifiy form if all of them are same like #fff.
+
+TIPS for gradients :
+You can specify the firection or degree in first position in gradient for example : (23deg, blue, pink 30%) or (top left ,...).
+
+TIPS for borders :
+Common tags are border, border-width, border-top an border-radius. we can make css shapes with these elements. 
+
+TIPS for box shadows :
+Used from this order to make a shadow in positive directions : right, bottom, blure and color.
+TWO TYPES OF SHADOW : box-shadow and text-shadow.
