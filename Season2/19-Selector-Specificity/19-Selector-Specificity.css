@@ -1,10 +1,11 @@
+
+h1{
+  color: rgb(53, 59, 239) !important;
+}
+
 h2{
   color: darkmagenta;
 }
-
-/* h2{
-  color: darkmagenta !important;
-} */
 
 #products .heding-id{
   color: crimson;
