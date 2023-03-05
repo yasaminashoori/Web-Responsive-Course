@@ -6,6 +6,10 @@ p::after{
   content: "...";
 }
 
+p::before{
+  content: url("https://google.com");
+}
+
 p:hover{
     color: rgb(56, 139, 0);
     font-weight: bold;
