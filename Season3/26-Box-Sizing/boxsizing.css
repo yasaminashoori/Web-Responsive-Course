@@ -1,10 +1,9 @@
 *,*::after,*::before{
     box-sizing: border-box; 
-    /* deafult content-box */
     margin: 0;
     padding: 0;
     list-style: none; 
-} /* css reset  */
+}
 
 .box{
     height: 200px;
@@ -12,13 +11,12 @@
     background-color: darkcyan;
     border: 10px solid darkblue;
     padding: 20px;
-    /* margin: 30px; */
+    margin: 30px;
     display: inline-block;
 }
 
 
 #box{
-
     width: 100px;
     height: 100px;
     background-color: darkcyan;
