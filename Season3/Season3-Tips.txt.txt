@@ -1,0 +1,18 @@
+TIPS for box model : 
+With the help of Margin we can make distance tas from each others and with padding make distance tag from it's border.
+Browser takes 16 px padding always by default.
+We have a situation that called margin collapsing, it happened when we have two margin around each other and we want to take them 
+margin, but the bigger margin will be applied or one of them if they are equal.
+When want to distence an element from toop, left, bottom or right give them margin but if we want to distance a content from it's 
+border give them padding.
+
+TIPS for box sizing : 
+When we add padding and marign to the box with the specified width and height the size of the box will be changed because of the box-sizing's 
+value sets on content-box and to remove this sets that to border-box.
+And for the before and after too. but if we want to puth the boxes on one line and give them width and height : set the display to inline-block.
+
+TIPS for measuring unit : 
+We have two types of units : absolute and relative, the absolute examples are pt, px, ch, mm, cm and for the relative type are : %, vw, vh, rem, em.
+% : based on size of parent container.
+vw and vh : viewport height and width current or root
+it will get height when the content is inside it.
