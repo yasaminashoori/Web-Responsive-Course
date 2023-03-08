@@ -10,7 +10,7 @@
 .container {
   display: grid;
   grid-template-columns: 30fr 70fr;
-  grid-template-rows: 100px auto 300px 200px;
+  grid-template-rows: 100px auto auto 200px;
   column-gap: 1rem;
   row-gap: 1rem;
   grid-template-areas:
@@ -44,7 +44,7 @@
   .container {
     display: grid;
     grid-template-columns: 30fr 70fr;
-    grid-template-rows: 100px auto 300px;
+    grid-template-rows: 100px auto 200px;
     column-gap: 1rem;
     row-gap: 1rem;
     grid-template-areas:
