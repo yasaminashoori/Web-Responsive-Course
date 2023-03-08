@@ -9,14 +9,14 @@
 
 @font-face {
   font-family: "Yekan";
-  font-weight: normal; /*or normal*/
+  font-weight: normal;
   font-style: normal;
   src: url("/assets/fonts/Yekan.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Yekan";
-  font-weight: normal; /*or normal*/
+  font-weight: 700;
   font-style: normal;
   src: url("/assets/fonts/Yekan.woff") format("woff");
 }
@@ -34,4 +34,5 @@ p {
 
 h2 {
   font-weight: 700;
+  font-style: italic;
 }
