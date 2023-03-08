@@ -19,10 +19,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* this is mobile first */
 }
-
-/* @media type and condition/ type : print/ screen */
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
   .container {
@@ -35,5 +32,3 @@
     font-size: 12px;
   }
 }
-
-/*  this print will active when use button crtl p the font will be 12p x*/
