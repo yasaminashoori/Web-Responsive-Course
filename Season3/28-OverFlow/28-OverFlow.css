@@ -5,14 +5,12 @@
     list-style: none;
 }
 
-
 .box {
     font-size: 2rem;
     height: 200px;
     width: 200px;
     background-color: gold;
     overflow: auto;
-    /* border-left: 5px solid firebrick; */
 }
 
 p{
@@ -21,5 +19,4 @@ p{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* overflow and white and text  should come together*/
 }
