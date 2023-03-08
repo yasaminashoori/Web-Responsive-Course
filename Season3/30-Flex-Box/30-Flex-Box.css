@@ -2,23 +2,12 @@
     height: 500px;
     border: 2px solid gray;
     display: flex;
-    /* to set them around eachother */
     flex-direction: row;
-    /* display direction for mobile  : column and row for desktop*/
     justify-content: center; 
-    /* ofoghi */
     align-items: flex-start;
-    /* flex-wrap: wrap; */
-    /* align-content: center; */
-    /* when more than 1 row  so we need wrap proerty default is no wrap and align content center both rows together */
+    flex-wrap: wrap;
+    align-content: center;
 }
-
-/* flex direction if be row :
- main(justify content) works horizontal(x)
-column => MAIN (Y)
-row => cross(align-items) = y  
-column => cross(x)
-  */
 
 .item{
 
@@ -27,21 +16,10 @@ column => cross(x)
     height: 100px;
     background-color: tomato;
     flex-basis: 200px;
-     /* basis sits place of width if be row but if column take place of height */
     flex-grow: 1;
-    /* space between them and devide it between items */
 }
-
 
 .item-one{
-
     flex-grow: 2;
-    /* flex item one gives 2 part 4 2 3 5 3/5 2/5 2/5 */
     flex-shrink: 3;
-    /*0 : don't shrink .  flex: 1 1 300px; shorted: grow, shrink; basis. if had px or rem it would be basis  */
-
-    /* align-self: center; */
-    /* makee changes to every single item */
 }
-
-/* نکته همه این پراپرتی هارو به بپه ها دادیم نه یه خود پدرش یعنی ایتمس */

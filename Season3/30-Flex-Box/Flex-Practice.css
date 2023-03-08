@@ -9,33 +9,36 @@
 
 .items{
     border: 1px solid black;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 500px;
 }
 
 .item{
     width: 100px;
     height: 100px;
-    margin: 20px;
+    margin: 1px;
 }
 
 .box2{
     display: flex;
 }
 
-
 .item-one{
-    width: 250px;
+    width: 300px;
     background-color: blueviolet;
-    flex-basis: 500px;
 }
 
 .item-two{
-    /* flex-basis: 300px; */
+    word-wrap: 300px;
     background-color: rgb(43, 64, 226);
+    /* flex-basis: 300px; */
 }
 
 .item-three{
-    /* flex-basis: 200px; */
+    width: 200px;
     background-color: rgb(226, 43, 195);
+    /* flex-basis: 200px; */
 }
