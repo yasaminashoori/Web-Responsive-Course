@@ -9,14 +9,14 @@
 
 @font-face {
   font-family: "Yekan";
-  font-weight: 400; /*or normal*/
+  font-weight: 400;
   font-style: normal;
   src: url("/practices/assets/fonts/Yekan.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Yekan";
-  font-weight: 700; /*or normal*/
+  font-weight: 700; 
   font-style: normal;
   src: url("/practices/assets/fonts/Yekan.ttf") format("ttf");
 }
@@ -27,31 +27,25 @@ body {
 
 html {
   font-size: 62.5%;
-  /* 62.5% * 16px = 10px */
 }
 
 p {
   font-size: 2rem;
-  line-height: 1.7; /* we use line height for keep the lines clean normally it sets :  font-size here 2rem * 2= 4 */
+  line-height: 1.7;
   font-weight: 400;
   width: 50rem;
   column-count: 2;
   column-gap: 2rem;
-  /* for newspaper used this 2 columns */
-  /* text-align: right;  khodesh raste. justify kamelan ghalate chon az nazar ux kalamat ham teraz hastan va gij konanande*/
-  /* text-decoration: line-through; for off products  */
-  /* direction: rtl; */
+  direction: rtl;
 }
 
 p + p {
-  text-indent: 2rem;   /*it means first doesn't give and the second gives indent */
-  /* paragraphayi ke bad tag paragaph oomadan */
+  text-indent: 2rem;
 }
 
 h2 {
-  /* text-transform: uppercase capitalize better for headings; */
+  text-transform: capitalize;
   font-size: 3.1rem;
-  /* for mobile 2 rem and 3.1 rem */
   margin: 3rem 0 1rem;
   font-weight: 700;
 }
@@ -63,7 +57,6 @@ h2 {
   p {
     font-size: 2.5rem;
   }
-  /* desktop mode */
 }
 
 .over {
@@ -72,13 +65,6 @@ h2 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  /* all of tihs 4 things above are essential width/over/tex/wh */
+  text-decoration: line-through;
 }
 
-/* 18px = > 18 /  16 = 1.4  */
-/* "" those have strings have  space between. if the fontns were availabe we shouls show something else to the user */
-/* ttf eot (the best => woof woff2)*/
-/* we can put this @fontface in a seperate file named as font.css */
-/* responsive , px or rem ? rem! for updating to th changed in font of browser */
-
-/* rem better px not good for apple with high resolation */
