@@ -9,14 +9,14 @@
 
 @font-face {
   font-family: "Yekan";
-  font-weight: normal; /*or normal*/
+  font-weight: normal; 
   font-style: normal;
   src: url("/assets/fonts/Yekan.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Yekan";
-  font-weight: normal; /*or normal*/
+  font-weight: normal; 
   font-style: normal;
   src: url("/assets/fonts/Yekan.woff") format("woff");
 }
@@ -27,19 +27,17 @@ body {
 
 html {
   font-size: 62.5%;
-  /* 62.5% * 16px = 10px */
 }
 
 p {
   font-size: 2rem;
-  line-height: 1.7; /* we use line height for keep the lines clean normally it sets :  font-size here 2rem * 2= 4 */
+  line-height: 1.7;
   font-weight: 400;
 }
 
 
 h2 {
   font-size: 3.1rem;
-  /* for mobile 2 rem and 3.1 rem */
   margin: 3rem 0 1rem;
   font-weight: 700;
 }
@@ -52,5 +50,4 @@ h2 {
   p {
     font-size: 2.5rem;
   }
-  /* desktop mode */
 }
