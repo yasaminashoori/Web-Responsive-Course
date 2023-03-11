@@ -1,0 +1,40 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
+
+.box-two {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+}
+
+:root {
+  --color-primary: blue;
+  --color-secondary: yellow;
+  --border-radius: 10px;
+}
+
+.btn {
+  outline: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #0d0131;
+  color: #fff;
+}
+
+.btn-secondary {
+  border: 2px solid #0d0131;
+  background-color: #fcfcfd;
+  color: #0d0131;
+}
