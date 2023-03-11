@@ -1,0 +1,21 @@
+.box {
+  width: 200px;
+  height: 100px;
+  margin-top: 2rem;
+  background-color: #ccc;
+  border-radius: 10px;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+}
+
+.box__text{
+    text-decoration: line-through;
+}
+
+.box--orange{
+    background-color: rgb(255, 125, 78);
+}
+
+.box--blue{
+    background-color: rgb(146, 146, 246);
+}
