@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    background-color: gold;
+    object-fit: contain;
+}
+
+.container {
+  height: 200vh;
+  background: url("/assets/images/21\ Vibrant\ Landscape\ Photographs\ of\ Valleys.jfif"); 
+  background-position: center; 
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
