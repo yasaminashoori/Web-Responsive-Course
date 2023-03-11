@@ -8,18 +8,16 @@ body {
   font-family: "Yekan";
 }
 
-
-label {
-  /* be soorat inline bood hala block shod har chi jolosh bashe mindaze payin */
-  display: block;
-  margin-bottom: 0.3rem;
-}
-
 form {
-  background-color: rgba(250, 240, 240, 0.973);
+  background-color: rgb(243, 243, 243);
   border-radius: 5px;
   padding: 1rem;
   max-width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
 }
 
 .form-control {
@@ -32,23 +30,16 @@ input[type="email"] {
   border-radius: 5px;
   padding: 0.5rem 1rem;
   transition: border 0.15s, box-shadow 0.15s;
-  /* transition: all 0.15s; */
+  transition: all 0.15s;
 }
 
 
 input[type="text"]:focus,
 input[type="email"]:focus {
   outline: 0;
-  border: 1px solid6#bfafd4;
+  border: 1px solid #a996c1;
   box-shadow: 0 0 0 6px #f5f3ff;
 }
-
-/*  or : 
-input:focus {
-  outline: 0;
-  border: 1px solid #c4b5fd;
-  box-shadow: 0 0 0 4px #f5f3ff;
-} */
 
 
 button {
@@ -58,6 +49,6 @@ button {
   border-radius: 5px;
   padding: 0.5rem 0.7rem;
   border: 1px solid #ccc;
-  background-color: #a78bfa;
+  background-color: #b9aae7;
   color: white;
 }
