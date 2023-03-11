@@ -1,0 +1,75 @@
+TIPS for form intro:
+Validation in forms from backend
+
+<!-- 1.build forms
+2.style forms
+3.text fields
+4.data lists 
+5.drop-down lists
+6.check box 
+7.radio buttons
+8.sliders
+9.file inputs
+10.hidden fields
+11.data validation
+12.submitting forms -->
+<!--action tells how send data-->
+<!--put in div tag to seperate input & label of each one from together-->
+
+
+  /*label display block  be soorat inline bood hala block shod har chi jolosh bashe mindaze payin */
+
+  
+/*  or : 
+input:focus {
+  outline: 0;
+  border: 1px solid #c4b5fd;
+  box-shadow: 0 0 0 4px #f5f3ff;
+} */
+
+
+<!-- 1.age < 0  -->
+<!-- price < 0 -->
+<!-- quantity < 1 => 0.1 0.2,... -->
+<!-- name: 1000 x ch... -->
+
+disabeled doesn't send the info
+and if value doesnt't have  readonly user can change it.
+ <!-- <input type="text" id="name" disabled value="yasamin">with disabaled the form info doesnt send cause it disabeled -->
+
+
+  <!-- drop down list : just select form these list -->
+        <!-- <select multiple> 
+
+   <!-- checkbox: allow user to select multiple of optons in favourite items -->
+   <!-- we want to suggest some options to user and either yourself add option -->
+   <!-- datalist -->
+        <!-- drop down list : just select form these list -->
+
+<!-- gender is same in name and just choose one -->
+            <!-- ham to radio ham select faghat yedoone vaghti tedad az 3 bushtar to sleect mizarim kamtar radio -->
+            IN DELECT AND RADIO JSUT CHOOSE ONE
+        </div>
+
+<!-- we want to suggest some options to user and either yourself add option -->
+
+
+    <!-- we want to suggest some options to user and either yourself add option -->
+    <!-- 1.build forms
+    2.style forms
+    3.text fields
+    4.data lists 
+    5.drop-down lists
+    6.check box 
+    7.radio buttons
+    8.sliders
+    9.file inputs
+    10.hidden fields
+    11.data validation
+    12.submitting forms -->
+
+    <!-- 1.age < 0  -->
+    <!-- price < 0 -->
+    <!-- quantity < 1 => 0.1 0.2,... -->
+    <!-- name: 1000 x ch... -->
+    <!--or get but post is better for info-->

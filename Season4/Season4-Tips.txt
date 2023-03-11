@@ -1,0 +1,26 @@
+TIPS for fonts : 
+Give the font-family style to the body instead of p, h2 and other tags.
+We used " " for fonts that have space and long name "Time Since" and also always used a dafault font for the times that given font doesn't work.
+font-weight : bold or light
+font formats : ttf, eot, woff, woff2 (woff and woff2 suggested).
+
+
+TIPS for font size : 
+It's recommended to use just ine font in the program.
+responsive fonts and always use rem.
+line height : should be 1.5 times more that font-size BUT WE USED 1.5 AND IT AUTOMATICALLY CALCULATED (WITHOUT USING 1.5 REM).
+text-align : right or left (NEVER USED JUSTIFY BAD FOR UX)
+p + p {
+  text-indent: 2rem;   /*it means first doesn't give and the second gives indent */
+  /* paragraphayi ke bad tag paragaph oomadan */
+}
+
+
+/* 18px = > 18 /  16 = 1.4  */
+/* "" those have strings have  space between. if the fontns were availabe we shouls show something else to the user */
+/* ttf eot (the best => woof woff2)*/
+/* we can put this @fontface in a seperate file named as font.css */
+/* responsive , px or rem ? rem! for updating to th changed in font of browser */
+
+/* rem better px not good for apple with high resolation */
+

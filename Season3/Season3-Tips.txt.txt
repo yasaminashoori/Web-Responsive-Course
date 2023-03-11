@@ -16,3 +16,63 @@ We have two types of units : absolute and relative, the absolute examples are pt
 % : based on size of parent container.
 vw and vh : viewport height and width current or root
 it will get height when the content is inside it.
+
+TIPS for Overflow : 
+For control over the overflow we can add overflow auto or scroll, auto is better for when the content doesn't have overflow.
+And text overflow, when want to ahow something else to user if the text is overflowing : always used together
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+TIPS for position : 
+ /* position: relative;  */
+    /* reletive for move the item don't work if it be static. releative has nothing to do with others*/
+    /* absolute: look  AT parent */
+    /* top: 0px;
+    right: 0px; */
+    /* z-index: -3; */
+    position: fixed; /*this used for advertisments and menue foe menue : top=0 width:100%*/
+    /* nesbat be borwser/viewport fixed */
+    top: 0;
+    left: 30%;
+    width: 50%;
+    /* bottom: 0;
+    right: 0; */
+    /* border-radius: 50%;   */
+    /* top: 30px; */
+    /* left: 20px; */
+    /* position: sticky; top=0  width=100% sticky menues . ta ghabl noghte khas farghi nadare ama badesh stick mishe  */
+
+
+
+
+
+/* flex direction if be row :
+ main(justify content) works horizontal(x)
+column => MAIN (Y)
+row => cross(align-items) = y  
+column => cross(x)
+  */
+
+
+  grid-column: 1/3; 
+     or 1 / span 3 
+
+
+
+breakpoint yani az in nothte be bad intory namayesh dade beshe 
+with flex we should do more work and it is 1D so nested blocks we need but greed is 2D 
+mobile first and desktop first and mobile first is most optimze 
+
+
+
+@media print {
+  .container {
+    font-size: 12px;
+  }
+}
+
+/*  this print will active when use button crtl p the font will be 12p x*/
+
+
+/* @media type and condition/ type : print/ screen */

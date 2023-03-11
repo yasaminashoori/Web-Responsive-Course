@@ -1,0 +1,16 @@
+<!-- 1.transform  moving an elemnet in 2D x and y / rotate ,translste move, scale make big , skew ba ham zadan item -->
+<!--2. transition  smooth changing -->
+<!-- 3.animation -->
+/* z hast rotate alan */
+  /* rotateX or rotteY(45deg) */
+  /* skew(45deg) */
+  /* translate: (45px (x) , 100px(y)); */
+  /* transform: perspective(200px) translateZ(-45deg); */
+  /* perspective(200px) rotateY(45deg)  transform-origin: 0 50%; */
+  This is simpler that position relatice
+  /* or transtion: all 1s ease-in */
+  /* transition: all 1s cubic-bezier(.65,.56,.45,.68);   */
+  <!-- key frames dar animation be ma mide-->
+  /* loading is our choosing name */
+@keyframes loading
+animation: loading 2s linear infinite;

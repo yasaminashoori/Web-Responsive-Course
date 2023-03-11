@@ -1,0 +1,31 @@
+1-Content Image
+2-Background Image 
+
+1- Used img in backgrounds in banner or header with a p or in svg for icons
+NOTE should give an height to it.
+2-Used when list of products and each of them have img and google wants to check, when content is importatnt used img tag
+
+
+How to not busy the severs use from sprite
+we want to optimze our site for don't put pressure on servers  for numbers of imgs 4 request sends for imgs  -->
+use from flaticon site, png had no bg and the best is svg good for zooming -->
+use sprite generator -->
+PNG format has no background
+
+
+
+<!-- DPR : device pixle ratio = physical resolution(960 * 640 va 480 * 320)number of real pixeles here times / logical
+    resoultion css number of pix that we behaves with it -->
+
+<!-- webp is best formst for dwnload and speed render -->
+ <!-- if browser not supported webp use tag img but picture tag helps -->
+    <!-- <img src="/practices/assets/images/webpVibrant Landscape Photographs of Valleys 1@1x.webp" alt="">
+    <img src="/practices/assets/images/21 Vibrant Landscape Photographs of Valleys 1@1x.png" alt=""> -->
+
+
+SVG : Scallabe Vector Graphic
+<!-- scalable = vector geraphic zoom koni oft quality nadare hajm payin  -->
+    <!-- cdn : Content delivery netwrk . based on the nearest server to us sends us information -->
+
+
+     <!-- types of icons : outline have line . solid full inside  -->

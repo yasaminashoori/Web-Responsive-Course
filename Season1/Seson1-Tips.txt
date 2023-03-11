@@ -38,3 +38,5 @@ every page has just one h2 tag
 the main structure of our site should be like : 
 every page should have just one main tag for the important contents.
 section are comletely relatvie together.
+
+    <!-- note: for put the video in center we have mulltiple ways one is the flex and the other one is margin -->
