@@ -10,8 +10,8 @@
 .container {
   display: grid;
   gap: 0.5rem;
-  /* grid-column: 30% 70%; */
-  /* grid-row: 30% 20% 50%; */
+  grid-column: 30% 70%;
+  grid-row: 30% 20% 50%;
   grid-template-areas:
     "one one"
     "two three"
@@ -42,12 +42,12 @@
   height: 6rem;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 656px) {
   .container {
     grid-template-areas:
-      "one"
-      "two"
-      "three"
-      "for";
+      "one one"
+      "two two"
+      "three three"
+      "for for";
   }
 }
