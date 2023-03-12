@@ -18,9 +18,9 @@ Navigation
 naming base in methodolgy, clean code . BEM: block element modifier. btn(block) , btn__text btn__price(element) ,
 btn--blue btn--big (modifier)
 
-/* dont repaeat your cite has a priamry color and if it changed one day we shlold find a,l of them and change  */
+/* dont repaeat your cite has a priamry color and if it changed one day we shlold find all of them and change  */
 /* root is html but with higher specificty */
-/* 1.seperate content from container container:blog,header  rset those two*/ btn from cintaienr
+/* 1.seperate content from container container:blog,header  reset those two*/ btn from cintaienr
 /* 2.seperate structure from skin : background-color: #a78bfa;
             color: #fff; */ btn for all styles and btn-primary for other styles
 
