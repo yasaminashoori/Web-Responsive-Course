@@ -260,6 +260,11 @@ h2 {
   justify-content: center;
 }
 
+.info-pannel {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1024px) {
   .feature {
     grid-template-columns: repeat(2, 1fr);
@@ -281,6 +286,10 @@ h2 {
 }
 
 /* Contact-us */
+
+.contact-us-size{
+  margin-top: -10rem;
+}
 
 .contact-us {
   display: grid;
@@ -322,6 +331,19 @@ h2 {
   height: 24px;
 }
 
+.ic-pwa {
+  background: url(https://tapsi.ir/images/ic-pwa.svg?bf37d2c63b8646ee4075154fcdaab3ac)
+    10%;
+  width: 24px;
+  height: 24px;
+}
+
+.driver-btn {
+  background-color: rgba(23, 26, 60, 0.5) !important;
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+}
+
 .icon-container {
   width: 40px;
   height: 40px;
@@ -361,11 +383,13 @@ h2 {
     flex-direction: column;
     max-width: 150px;
   }
-
   .icon-holder__label {
     order: 2;
     font-size: 1.4rem;
     margin-top: 1.5rem;
+  }
+  .intro-wrapper > p{
+    text-align: left;
   }
 }
 
@@ -432,6 +456,7 @@ textarea {
   margin-bottom: 3rem;
 }
 
+
 ::placeholder {
   font-size: 1.2rem;
   color: #a3a3a3;
@@ -465,7 +490,7 @@ textarea {
 .main-footer {
   background-color: rgb(0, 0, 0);
   color: white;
-  min-height: 250px;
+  min-height: 300px;
   display: flex;
   align-items: center;
 }
@@ -511,10 +536,41 @@ textarea {
   height: auto;
 }
 
+.tapsi__footer {
+  margin-left: 60rem;
+  line-height: 1.5;
+}
+
+.tapsi__footer > img {
+  font-size: 8rem;
+}
+
+.footer__item.tapsi__footer {
+  margin-left: 3rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.social-links > a {
+  margin-left: 1.5rem;
+}
+
+.social-heading {
+  margin-top: 6rem;
+}
+
+.footer__item > a:hover {
+  color: var(--color-primary);
+}
+
 @media screen and (min-width: 768px) {
   .main-footer .footer {
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .footer__item {
     margin-bottom: 0;
@@ -877,7 +933,7 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .block {
-    padding: 6rem 2rem;
+    padding: 7rem 2rem;
   }
 }
 .block-heading {
@@ -886,14 +942,14 @@ textarea {
 
 /* travell */
 
-.travell__slides{
+.travell__slides {
   display: flex;
   justify-content: space-between;
   align-items: center;
   overflow-x: auto;
 }
 
-.travell__slide{
+.travell__slide {
   height: 100px;
   flex: 0 0 290px;
 }
